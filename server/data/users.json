@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1764159216332",
+    "name": "Myriam",
+    "email": "mariem.maamar@stonybrook.edu",
+    "password": "maamar123"
+  },
+  {
+    "id": "1764159276498",
+    "name": "Myriam",
+    "email": "mariem.maamar@gmail.com",
+    "password": "12345"
+  },
+  {
+    "id": "1764412186069",
+    "name": "mia",
+    "email": "mia@gmail.com",
+    "password": "mia1234"
+  },
+  {
+    "id": "1764578834829",
+    "name": "mariem",
+    "email": "marie@gmail.com",
+    "password": "maamar123"
+  },
+  {
+    "id": "1764583098344",
+    "name": "malek",
+    "email": "malek12@gmail.com",
+    "password": "maamar123"
+  }
+]

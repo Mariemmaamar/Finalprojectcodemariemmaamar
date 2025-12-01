@@ -1,0 +1,129 @@
+/* GLOBAL BACKGROUND – soft beige with subtle paper texture */
+
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+/* PAGE WRAPPER */
+
+.planner-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+    min-height: 100vh;
+    backdrop-filter: blur(6px);
+    background: rgba(255, 255, 255, 0.70);
+    border-radius: 22px;
+    box-shadow: inset 0 0 60px rgba(90, 72, 56, 0.08);
+}
+
+
+/* TITLE */
+
+.planner-title {
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #5B4636;
+    margin-bottom: 35px;
+    letter-spacing: -0.5px;
+}
+
+
+/* GRID FOR DAYS */
+
+.planner-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 28px;
+    margin-bottom: 40px;
+}
+
+
+/* EACH DAY CARD */
+
+.planner-card {
+    background: #FFFFFF;
+    border-radius: 22px;
+    padding: 22px 24px 26px;
+    border: 1px solid #E9E2D9;
+    box-shadow: 0 12px 30px rgba(120, 98, 78, 0.12);
+    transition: transform 0.25s ease, box-shadow 0.3s ease;
+}
+
+.planner-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 44px rgba(120, 98, 78, 0.18);
+}
+
+
+/* DAY TITLE */
+
+.planner-card h3 {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #5B4636;
+    margin-bottom: 14px;
+}
+
+
+/* DROPDOWN SELECT */
+
+.planner-card select {
+    width: 100%;
+    padding: 12px 12px;
+    border-radius: 14px;
+    background: #FDF9F3;
+    border: 2px solid #D4C9BD;
+    font-size: 15px;
+    color: #5B4636;
+    font-family: "Inter", sans-serif;
+    outline: none;
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.planner-card select:focus {
+    border-color: #A68A74;
+    box-shadow: 0 0 8px rgba(166, 138, 116, 0.25);
+}
+
+
+/* SAVE BUTTON */
+
+.planner-save-btn {
+    background: #A68A74;
+    color: white;
+    font-size: 19px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 14px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.planner-save-btn:hover {
+    background: #5B4636;
+    transform: translateY(-3px);
+}
+
+
+/* SUCCESS MESSAGE */
+
+.planner-message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #5B4636;
+    font-weight: 600;
+}

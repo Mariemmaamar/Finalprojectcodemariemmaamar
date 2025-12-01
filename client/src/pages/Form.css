@@ -1,0 +1,9 @@
+.form-message {
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #b91c1c;
+}
+
+.form-message:contains("successfully") {
+  color: #15803d;
+}

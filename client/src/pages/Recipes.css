@@ -1,0 +1,165 @@
+/* Page container */
+
+.pinterest-page {
+    padding: 20px 12px 40px;
+    background: #FAFAF7;
+    min-height: 100vh;
+}
+
+
+/* Title */
+
+.pinterest-title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #4a4038;
+    /* BROWN instead of green */
+    margin-bottom: 30px;
+    letter-spacing: -0.5px;
+}
+
+
+/* Search bar */
+
+.recipes-search {
+    width: 100%;
+    max-width: 460px;
+    padding: 12px 16px;
+    display: block;
+    margin: 0 auto 35px auto;
+    border: 2px solid #c8b8a8;
+    /* soft brown */
+    border-radius: 14px;
+    font-size: 16px;
+    transition: 0.25s ease;
+    outline: none;
+}
+
+.recipes-search:focus {
+    border-color: #b49b82;
+    box-shadow: 0 0 10px rgba(180, 153, 130, 0.25);
+}
+
+
+/* Masonry Grid */
+
+.pinterest-grid {
+    column-count: 3;
+    column-gap: 24px;
+}
+
+@media (max-width: 1100px) {
+    .pinterest-grid {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 700px) {
+    .pinterest-grid {
+        column-count: 1;
+    }
+}
+
+
+/* Card container */
+
+.pin-card {
+    background: #ffffff;
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 26px;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.08);
+    transition: transform 0.22s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+
+/* Hover */
+
+.pin-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.14);
+}
+
+
+/* Image */
+
+.pin-image {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+
+/* Content */
+
+.pin-content {
+    padding: 18px 20px 22px;
+}
+
+
+/* Name (TITLE) */
+
+.pin-name {
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #4a4038 !important;
+    /* BROWN FIX */
+    margin: 0 0 8px;
+}
+
+
+/* Cost */
+
+.pin-cost {
+    font-size: 17px;
+    font-weight: bold;
+    color: #6b5a4d !important;
+    /* BROWN FIX */
+    margin-bottom: 12px;
+}
+
+
+/* Text: ingredients */
+
+.pin-text {
+    font-size: 15px;
+    color: #5d5044 !important;
+    /* BROWN FIX */
+    line-height: 1.55;
+    margin-bottom: 10px;
+}
+
+
+/* Fade animation */
+
+.fade-in {
+    animation: fadeInSmooth 0.55s ease;
+}
+
+@keyframes fadeInSmooth {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+h3,
+.pin-name,
+.recipe-title {
+    color: #4a4038 !important;
+}
+
+.price,
+.pin-cost {
+    color: #6b5a4d !important;
+}

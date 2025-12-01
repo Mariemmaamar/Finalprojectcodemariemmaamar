@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap');
+body {
+    background: #f4f1ed;
+    font-family: "Inter", sans-serif;
+}
+
+
+/* Center Wrapper */
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    padding: 20px;
+    animation: fadeIn 0.6s ease;
+}
+
+
+/* Glass Card */
+
+.login-card {
+    background: rgba(255, 255, 255, 0.55);
+    padding: 45px 55px;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 430px;
+    backdrop-filter: blur(16px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+    animation: popUp 0.5s ease;
+}
+
+
+/* Title */
+
+h2 {
+    text-align: center;
+    color: #4a4038;
+    margin-bottom: 25px;
+    font-size: 2.2rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+
+/* Labels */
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #4a4038;
+    font-size: 15px;
+}
+
+
+/* Inputs */
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #c8b8a8;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.75);
+    transition: 0.25s ease;
+}
+
+input:focus {
+    border-color: #b49b82;
+    box-shadow: 0 0 0 3px rgba(176, 153, 130, 0.35);
+    outline: none;
+}
+
+
+/* Login Button */
+
+.btn-login {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: #dcc7ac;
+    color: #4d3f35;
+    cursor: pointer;
+    transition: 0.25s;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.btn-login:hover {
+    background: #cbb79d;
+}
+
+
+/* Signup Text */
+
+.signup-text {
+    text-align: center;
+    margin-top: 18px;
+    color: #5d5044;
+}
+
+.signup-text a {
+    color: #8a6a55;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
+
+
+/* Error message */
+
+.form-message {
+    color: #b53030;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+
+/* Fade Animations */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes popUp {
+    from {
+        opacity: 0;
+        transform: scale(0.96);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

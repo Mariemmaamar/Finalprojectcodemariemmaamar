@@ -1,0 +1,127 @@
+/* GLOBAL APP WRAPPER */
+
+.app {
+    background-color: #F7F3EE;
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+
+
+/* NAVBAR */
+
+.header {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(10px);
+    padding: 14px 0;
+    box-shadow: 0 4px 18px rgba(90, 72, 56, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.nav-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* LOGO */
+
+.logo {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #5B4636;
+}
+
+
+/* NAVIGATION GROUPS */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 26px;
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* LINKS */
+
+.nav a {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 18px;
+    color: #5B4636;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+
+/* ACTIVE (CURRENT PAGE) */
+
+.nav a.active {
+    background: #A68A74;
+    color: white;
+    box-shadow: 0 4px 10px rgba(90, 72, 56, 0.2);
+}
+
+
+/* HOVER */
+
+.nav a:hover {
+    background: #EDE4D9;
+    color: #5B4636;
+}
+
+
+/* GREETING */
+
+.nav-greeting {
+    color: #5B4636;
+    font-weight: 600;
+}
+
+
+/* LOGOUT BUTTON */
+
+.nav-btn {
+    background: #A68A74;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.nav-btn:hover {
+    background: #5B4636;
+}
+
+
+/* MAIN CONTENT AREA */
+
+.main {
+    padding: 40px 0;
+}
+
+.main-card {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}

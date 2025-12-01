@@ -1,0 +1,97 @@
+[{
+        "id": 1,
+        "name": "Vegetable Fried Rice",
+        "cost": 4.5,
+        "ingredients": "Rice, mixed vegetables, soy sauce, egg",
+        "steps": "Stir fry cooked rice with vegetables, scrambled egg and soy sauce.",
+        "image": "/images/friedrice.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Chicken Caesar Wrap",
+        "cost": 5,
+        "ingredients": "Chicken, lettuce, Caesar dressing, tortilla wrap",
+        "steps": "Mix cooked chicken with dressing, add lettuce, wrap tightly.",
+        "image": "/images/caesar.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Yogurt Parfait",
+        "cost": 3,
+        "ingredients": "Yogurt, berries, granola, honey",
+        "steps": "Layer yogurt, berries and granola in a jar and drizzle honey on top.",
+        "image": "/images/parfait.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Avocado Toast",
+        "cost": 2.5,
+        "ingredients": "Bread, avocado, lemon juice, salt, pepper",
+        "steps": "Toast bread, mash avocado with seasoning and spread on top.",
+        "image": "/images/avocado.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Veggie Noodles",
+        "cost": 4,
+        "ingredients": "Noodles, bell peppers, carrots, soy sauce",
+        "steps": "Stir fry vegetables, add cooked noodles and soy sauce.",
+        "image": "/images/noodles.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Rice & Beans",
+        "cost": 2.75,
+        "ingredients": "Rice, beans, onion, spices",
+        "steps": "Cook rice and beans separately, then mix and season.",
+        "image": "/images/ricebeans.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Tuna Sandwich",
+        "cost": 3.25,
+        "ingredients": "Tuna, mayonnaise, bread, lettuce",
+        "steps": "Mix tuna with mayo, spread on bread and add lettuce.",
+        "image": "/images/tuna.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Tomato Basil Pasta",
+        "cost": 4.75,
+        "ingredients": "Pasta, tomato sauce, basil, garlic",
+        "steps": "Cook pasta, simmer sauce with garlic and basil, then combine.",
+        "image": "/images/pasta.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Vegetable Omelette",
+        "cost": 3.5,
+        "ingredients": "Eggs, peppers, onions, cheese",
+        "steps": "Whisk eggs, add chopped vegetables and cheese, cook in pan.",
+        "image": "/images/omelette.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Stir Fry Vegetables",
+        "cost": 4,
+        "ingredients": "Broccoli, peppers, mushrooms, soy sauce",
+        "steps": "Stir fry vegetables in a hot pan and finish with soy sauce.",
+        "image": "/images/stirfry.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Oatmeal Bowl",
+        "cost": 1.75,
+        "ingredients": "Oats, milk, fruit, nuts",
+        "steps": "Cook oats with milk until soft and creamy.\n\n,Top with fresh fruit and nuts before serving",
+        "image": "/images/oatmeal.jpg"
+    },
+    {
+        "id": "1764414854265",
+        "name": "Lemon Garlic Shrimp",
+        "ingredients": "Shrimp,Garlic,Butter,Lemon,Parsley,Salt, pepper",
+        "steps": "Melt butter and add garlic\n\n,Cook shrimp until pink\n\n,Squeeze lemon and season.",
+        "cost": 7.2,
+        "image": "https://th.bing.com/th/id/OIP.dGq1MGMx3Pzdd5W7hP_4CAHaK1?w=186&h=273&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3"
+    }
+]

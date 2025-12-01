@@ -1,0 +1,172 @@
+body {
+    background: #F7F3EE;
+}
+
+
+/* Page wrapper */
+
+.budget-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px 50px 70px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    box-shadow: 0 10px 40px rgba(120, 98, 78, 0.15);
+    backdrop-filter: blur(4px);
+}
+
+
+/* Titles */
+
+.budget-title {
+    font-size: 42px;
+    font-family: "Playfair Display", serif;
+    color: #5B4636;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.budget-subtitle {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #5B4636;
+    margin-bottom: 18px;
+}
+
+
+/* Sections */
+
+.budget-section {
+    margin-bottom: 30px;
+}
+
+
+/* Label + input */
+
+.budget-label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 6px;
+    color: #5B4636;
+}
+
+.budget-input {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 14px;
+    border: 2px solid #D4C9BD;
+    background: #FDF9F3;
+    color: #5B4636;
+    font-size: 16px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.budget-input:focus {
+    border-color: #A68A74;
+    box-shadow: 0 0 8px rgba(166, 138, 116, 0.25);
+}
+
+
+/* Save button */
+
+.budget-btn {
+    background: #A68A74;
+    color: white;
+    padding: 12px 28px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 14px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.budget-btn:hover {
+    background: #5B4636;
+    transform: translateY(-2px);
+}
+
+
+/* Progress bar container */
+
+.budget-bar-wrap {
+    width: 100%;
+    height: 16px;
+    background: #E8E5E0;
+    border-radius: 12px;
+    margin: 18px 0;
+    overflow: hidden;
+}
+
+
+/* Bar fill (default) */
+
+.budget-bar-fill {
+    height: 100%;
+    width: 0%;
+    border-radius: 12px;
+    transition: width 0.7s ease, background 0.35s ease;
+}
+
+
+/* COLORS FOR ANIMATION */
+
+
+/* Safe: 0–70% */
+
+.budget-safe-fill {
+    background: #7D9A6D;
+}
+
+
+/* Warning: 70–100% */
+
+.budget-warning-fill {
+    background: #D9A34F;
+}
+
+
+/* Danger: Over 100% */
+
+.budget-danger-fill {
+    background: #C9544D;
+}
+
+
+/* Status text colors */
+
+.budget-safe {
+    color: #2F6A42;
+    font-weight: 600;
+}
+
+.budget-over {
+    color: #B14A3B;
+    font-weight: 600;
+}
+
+.budget-status-msg {
+    margin-top: 12px;
+    font-weight: 500;
+    color: #5B4636;
+}
+
+
+/* Fade animation */
+
+.fade-in-budget {
+    animation: fadeIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,106 @@
+body {
+    background-color: #F7F3EE;
+}
+
+
+/* PAGE WRAPPER */
+
+.add-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+
+/* TITLE */
+
+.add-title {
+    font-family: "Playfair Display", serif;
+    color: #5B4636;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+
+/* FORM CARD */
+
+.add-form {
+    background: #FFFFFF;
+    padding: 30px 28px;
+    border-radius: 18px;
+    border: 1px solid #E9E2D9;
+    box-shadow: 0 10px 30px rgba(120, 98, 78, 0.12);
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+
+/* LABELS */
+
+.add-form label {
+    font-weight: 600;
+    font-size: 16px;
+    color: #5B4636;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+/* INPUTS */
+
+.add-form input,
+.add-form textarea {
+    width: 100%;
+    padding: 14px;
+    border-radius: 12px;
+    border: 2px solid #D4C9BD;
+    background-color: #FDF9F3;
+    font-size: 15px;
+    color: #5B4636;
+    outline: none;
+    transition: border 0.25s ease;
+}
+
+.add-form input:focus,
+.add-form textarea:focus {
+    border-color: #A68A74;
+}
+
+
+/* TEXTAREA SIZE */
+
+.add-form textarea {
+    min-height: 110px;
+    resize: vertical;
+}
+
+
+/* SUBMIT BUTTON */
+
+.add-btn {
+    background-color: #A68A74;
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background 0.25s ease;
+}
+
+.add-btn:hover {
+    background-color: #5B4636;
+}
+
+
+/* MESSAGE */
+
+.add-message {
+    color: #5B4636;
+    font-weight: 600;
+}
